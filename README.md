@@ -63,7 +63,7 @@ It is not needed that all endpoints in the API server implement several protocol
 
 
 ### Requirements
-We expect a concurrency of 200 users (business time) with an average operation duration of 10 minutes.
+We expect a concurrency of 50 users (business time) with an average operation duration of 10 minutes.
 
 ### Expected Deliverables
 We'd like to see:
