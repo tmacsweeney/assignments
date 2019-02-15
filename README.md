@@ -29,7 +29,7 @@ Remember the goal is to give us an idea of your personal and special way of unde
 
 **Think of the whole process**
 
-Try not thinking as a pure developer. We prefer the term * *Development Engineer* * . The Engineer is aware of the whole **Software Development & Delivery Life Cycle** to provide the maximum quality of the software as well as the integration of the tools to bring the component to Live considering all the circumstances in a regular delivery pipeline as well as having in mind the underlying infrastructure that will support your software.
+Try not thinking as a pure developer whose concern is only to write functional code and anything else. We prefer the term **Development Engineer**. The Engineer is aware of the whole **Software Development & Delivery Life Cycle** to provide the maximum quality of the software as well as the integration of the tools to bring the component to Live considering all the circumstances in a regular delivery pipeline as well as having in mind the underlying infrastructure that will support your software.
 
 
 **Read everything!**
