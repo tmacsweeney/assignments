@@ -3,37 +3,50 @@
 # Introduction
 Congratulations! You have been selected for the next phase of the selection process. 
 
-This phase consists of the making of a software project. The true objective of this task is more to create an opportunity for the discussion of your technical skills as well as your apporach to the problem.
+This phase consists of the making of a software project. The true objective of this task is to have an opportunity for the discussion of your technical skills as well as your approach to software engineering problems.
 
 All assigments should be on boarded following the same criteria:
 
 ## Requirements
-You formulate the requirements. Use functional (FR) and not functional requirements (NFRs). For instance performance, responsiveness, concurrency, etc. although some times you'll see some not functional requirements in the description of the assignment.
+You are in charge and you formulate the specific requirements. Use Functional (FR) and Not Functional Requirements (NFRs) in your wish list. For instance performance, responsiveness, concurrency, etc although some times you'll see some NFRs in the description of the assignment.
 We recommend you using the Gherkin syntax to write the requirements (FRs and NFRs).
 
 ## Methodology
 Write the code following the procedure, methodology and quality approach you consider is the best one for the project. Please include comments to illustrate decisions, solutions and approaches. 
 We recommend you to pay special attention to the structure of the project, segregation of tasks and clarity of the code.
 
+## The Session
+We'll meet and you'll start a short presentation (around 15 min) explaining the requirements,your plan, your approach to the problem, you quality  criteria and son. After your presentation we'll have a discussion about your work. It's simple!
 
+
+
+Let us remind you some key concepts about how to take the assignment phase:
 
 **Honesty**
-Remember the goal is to give us an idea of your personal and special way of understanding software development. Please be honest and write your own code. It is thousands of times better to read YOUR code with mistakes and errors rather than reading some copied code from the web.
+
+Remember the goal is to give us an idea of your personal and special way of understanding software development. Please be honest and write your own code. What we want is to read YOUR code even with possible errors or mistakes and errors rather than reading copied/pasted code from someone else. Besides, if we detect any copied snippet it will be really embarrassing.
+
 
 **Think of the whole process**
-Try not thinking as a pure developer. We prefer the term * *Development Engineer* * . The Engineer is aware of the whole Software Development & Delivery Life Cycle to provide the maximum quality of the software as well as the tools to bring the component to Live considering all the circumstances in a regular delivery pipeline.
+
+Try not thinking as a pure developer. We prefer the term * *Development Engineer* * . The Engineer is aware of the whole **Software Development & Delivery Life Cycle** to provide the maximum quality of the software as well as the integration of the tools to bring the component to Live considering all the circumstances in a regular delivery pipeline as well as having in mind the underlying infrastructure that will support your software.
+
 
 **Read everything!**
-Have a look on the presented proposals for assignments and choose your favourite one. Please read carefully all the sections in the assignment to avoid confusions. 
+
+Have a look on the three options for assignments and choose your favourite one. Please read carefully all the sections in the assignment to avoid confusions. 
+
 
 **Any doubt?**
+
 For any question send an email to jdediego@fexco.com, fmuno@fexco.com or tmacsweeney@fexco.com
+
 
 
 
 # Assignments
 
-## 1-The API and the Consumer
+## Option 1: The API and the Consumer
 
 ### Description
 In this assignment our mission is to produce an API server that will expose 2 or more endpoints. These endpoints will implement some regular CRUD functions to be consumed by public API consumers (e. g. a public web site). The endpoints 
@@ -63,7 +76,8 @@ We'd like to see:
 
 
 
-## 2-Extract, Transform, Load!
+
+## Option 2: Extract, Transform, Load!
 
 ### Description
 Probably you've guessed the main topic of this assignment from the header. Yes, it's about the infamous ETL processes world. The assignment consists of the making of an ETL applications that esentally:
@@ -96,7 +110,7 @@ Administrators should be able to compose graphical dashboards from the operation
 ### Expected Deliverables
 We'd like to see:
 
-1-The ETL application including the mentioned phases as well as mock data storages to test the component.
+1-The ETL application including the mentioned phases as well as mock data storages to test the component. You can use publicly available sources of data, public files with data, etc.
 
 2-Any related component handling the traces and logs from executions
 
@@ -104,7 +118,8 @@ We'd like to see:
 
 
 
-## 3-Microservice in Kubernetes
+
+## Option 3: Microservice in Kubernetes
 
 ### Description
 The goal of this assigment gathers a software component with IaC. Our mission is to develop an application as a microservice, following the main guidelines of the Micro Services Architecture. There is not any requirement about the implemented protocols but we'd like to see here is a good, solid, robust and efficient microservice, completely autonomous and containing all the features we could find in the best examples of microservices around the world.
@@ -117,7 +132,7 @@ You can choose your favourite protocol or protocols for the microservice but you
 
 
 ### Requirements
-High Availability, responsiveness and robustness are the core terms here. It is expected a really high concurrency (+500 users) and workload (heavy payloads in some occasions). You should implement some kind of heavy payload in the usage of the microservice to emulate this workload.
+High Availability, responsiveness and robustness are the core terms in this assignment. It is expected a really high concurrency (+500 users) and workload (heavy payloads with hundreds of KBs in some occasions). You should implement some kind of heavy payload in the usage of the microservice to emulate this workload.
 
 
 ### Expected Deliverables
@@ -128,4 +143,5 @@ High Availability, responsiveness and robustness are the core terms here. It is 
 
 
 **Good Luck!**
-Well, that's all folks. Again, if you have any question send an email to jdediego@fexco.com, fmuno@fexco.com or tmacsweeney@fexco.com
+
+Well, that's all. Again, if you have any question send an email to jdediego@fexco.com, fmuno@fexco.com or tmacsweeney@fexco.com
