@@ -1,4 +1,4 @@
-![Assignments](assignments.jpg)
+![Assignments](assigments.jpg)
 
 # Introduction
 Congratulations! You have been selected for the next phase of the selection process. 
