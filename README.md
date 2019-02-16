@@ -63,19 +63,15 @@ In this assignment our mission is to produce an API server that will expose 2 or
 
 
 ### Special Rules
-Well, usually API endpoints are based exclusively on a single protocol, HTTP1. However, our API is intended to support at least two protocols. We suggest to publish a subscription to a topic for notifications or creating some streaming channel based on HTTP2. 
-
-Regarding multi-protocol APIs you can have a look on [this post](https://techblog.fexcofts.com/2018/07/03/no-rest-for-us-new-api-architectures/).
-
-Some examples of protocols for an API are: HTTP1, HTTP2, AMQP, MQTT, etc.
-
-In any case the client (we prefer the term *API Consumer* ) should consume somehow all the endpoints available in the API regardless the implemented protocol.
-
-It is not needed that every endpoint in the API server implement several protocols. 1 protocol per each endpoint is OK. For instance, your service has three HTTP endpoints for CRUD and 2 AMQP endpoints for notifications and alerts. That would be OK to us.
+- Well, usually API endpoints are based exclusively on a single protocol, HTTP1. However, our API is intended to support at least two protocols. We suggest to publish a subscription to a topic for notifications or creating some streaming channel based on HTTP2. 
+- Regarding multi-protocol APIs you can have a look on [this post](https://techblog.fexcofts.com/2018/07/03/no-rest-for-us-new-api-architectures/).
+- Some examples of protocols for an API are: HTTP1, HTTP2, AMQP, MQTT, etc.
+- In any case the client (we prefer the term *API Consumer* ) should consume somehow all the endpoints available in the API regardless the implemented protocol.
+- It is not needed that every endpoint in the API server implement several protocols. 1 protocol per each endpoint is OK. For instance, your service has three HTTP endpoints for CRUD and 2 AMQP endpoints for notifications and alerts. That would be OK to us.
 
 
 ### Requirements
-We expect a concurrency of 50 users (24/7) with an average user operation duration of 10 minutes.
+- We expect a concurrency of 50 users (24/7) with an average user operation duration of 10 minutes.
 
 
 ### Expected Deliverables
@@ -132,11 +128,12 @@ Besides, we should release our microservice in a Kubernetes cluster and find out
 
 
 ### Special Rules
-You can choose your favourite protocol or protocols for the microservice but you always should follow an architectural pattern (for instance, REST architecture for HTTP1). 
+- You can choose your favourite protocol or protocols for the microservice but you always should follow an architectural pattern (for instance, REST architecture for HTTP1). 
 
 
 ### Requirements
-High Availability, responsiveness and robustness are the core terms in this assignment. It is expected a really high concurrency (+500 users) and workload (heavy payloads with hundreds of KBs in some occasions). You should implement some kind of heavy payload in the usage of the microservice to emulate this workload.
+- High Availability, responsiveness and robustness are the core terms in this assignment. It is expected a really high concurrency (+500 users) and workload (heavy payloads with hundreds of KBs in some occasions). 
+- You should implement some kind of heavy payload in the usage of the microservice to emulate this workload.
 
 
 ### Expected Deliverables
