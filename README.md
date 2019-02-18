@@ -125,6 +125,11 @@ We'd like to see:
 The goal of this assigment gathers a software component with IaC. Our mission is to develop an application as a microservice, following the main guidelines of the Micro Services Architecture (MSA). There is not any requirement about the implemented protocols but we'd like to see here is a good, solid, robust and efficient microservice, completely autonomous and containing all the features we could find in the best examples of microservices around the world.
 
 Besides, we should release our microservice in a Kubernetes cluster and find out what is its behavior in a Kubernetes pod with several containers containing the app.
+Kubernetes deployment should adapt to the load by creating / destroying containers when the load grows.
+
+The load to test the system should apply a load ramp as in the picture:
+
+![LOAD RAMP](load.png)
 
 
 ### Special Rules
@@ -134,13 +139,14 @@ Besides, we should release our microservice in a Kubernetes cluster and find out
 ### Requirements
 - High Availability, responsiveness and robustness are the core terms in this assignment. It is expected a really high concurrency (+500 users) and workload (heavy payloads with hundreds of KBs in some occasions). 
 - You should implement some kind of heavy payload in the usage of the microservice to emulate this workload.
+- We expect to see the number of microservice instances to grow from 2 (initial configuration) to N where N is what you need to cope with the maximum load. After 10 minutes of stress test (as described in the diagram) the system should return back to normal. If your microservice handles perfectly the load just with 2 instaces, please include a configuration option that degrades the preformance of the microservice so that we can see this growth.
 
 
 ### Expected Deliverables
 1. The microservice application applying all the special rules and standard quality features that are expected in Enterprise MSA.
 2. This time is not optional: `You have to provide the IaC needed to stand up a Kubernetes cluster` with a pod of several instances of the microservice. The target of the IaC can be a Cloud Provider or anything you consider. Factors as exchangeability, agnosticism and versatility of the IaC code will be really appreciated.
-
-
+3. A stress tool log report showing the performance evolution of the global system (Jmeter, Soap UI or any other you like)
+ 
 
 **Good Luck!**
 
